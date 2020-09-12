@@ -1,1 +1,22 @@
+body {
+  background-color: #eceef1;
+}
 
+/* Navbar Styling */
+#tr-nav {
+  margin-top: 10px;
+}
+
+/* Sign In button at top right of the screen */
+#sign-in {
+  background: #0077c5;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  padding: 0 20px 0 20px;
+  width: 101.8px;
+  height: 32px;
+  color: white;
+  float: right;
+  margin-right: 30px;
+  font-size: 14px;
+}
