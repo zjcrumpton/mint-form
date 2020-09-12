@@ -7,6 +7,10 @@ a {
   color: #1b84ca;
 }
 
+nav {
+  display: block;
+}
+
 /* Pointable */
 button, a{
   cursor: pointer;
@@ -41,4 +45,23 @@ button, a{
   margin-right: 30px;
   margin-left: 10px;
   font-size: 14px;
+}
+
+/* Main Form Section */
+#logo {
+  width: 118px;
+  height: 35px;
+}
+
+article {
+  display: inline-block;
+  margin-top: 35px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#app-list {
+  
 }
