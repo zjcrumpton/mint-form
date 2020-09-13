@@ -5,6 +5,7 @@ body {
 
 a {
   color: #1b84ca;
+  text-decoration: none;
 }
 
 nav {
@@ -60,6 +61,7 @@ article {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .logo-icon {
@@ -138,4 +140,47 @@ article {
   text-align: left;
   margin-left: 39px;
   margin-top: 5px;
+}
+
+/* Submit Button */
+#create {
+  color: white;
+  background-color: #0077c5;
+  border: none;
+  width: 310px;
+  height: 42px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  font-size: 1.125em;
+}
+
+.agree {
+  font-style: italic;
+  font-size: 12px;
+  color: #757575;
+  text-align: center;
+  font-weight: normal;
+  line-height: 1.5;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.form-footer {
+  background-color: #eceef1;
+  width: 100%;
+  height: 50px;
+  display: flex;
+}
+
+.form-footer-text {
+  font-size: 10px;
+  color: #8d9096;
+  text-align: center;
+  margin: auto;
 }
