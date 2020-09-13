@@ -184,3 +184,18 @@ article {
   text-align: center;
   margin: auto;
 }
+
+/* Actual Footer Styling */
+.footer-text {
+  color: #505050;
+  background: transparent;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.5;
+
+}
+
+.final-footer {
+  margin-bottom: 30px;
+}
