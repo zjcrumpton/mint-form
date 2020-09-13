@@ -1,6 +1,6 @@
 body {
   background-color: #eceef1;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -69,4 +69,73 @@ article {
 
 #app-icons {
   width: 350px;
+}
+
+/* Actual Form Styling */
+#sign-up {
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: #4C4C4C;
+  text-align: center;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 100%;
+  border-radius: 2px;
+  border-color: #c7c7c7;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+
+#form-title {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+  padding-top: 20px;
+
+}
+
+.form-sub {
+  font-weight: normal;
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.form-sub-link {
+  color: #0077C5;
+  font-weight: 300; 
+  font-size: 12px;
+}
+
+.field-label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 39px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: left;
+}
+
+.fields {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 304px;
+  height: 32px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c7c7c7;
+  border-radius: 3px;
+}
+
+#phone-sub {
+  font-size: 10px;
+  color: #444;
+  padding: 5px 0;
+  text-align: left;
+  margin-left: 39px;
+  margin-top: 5px;
 }
